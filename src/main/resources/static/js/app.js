@@ -22,7 +22,7 @@ app.config(function($routeProvider){
             controller: 'listProfessionalController'
         })
         .otherwise(
-            { redirectTo: '/'}
+            { redirectTo: '/home'}
         );
 });
 
